@@ -23,15 +23,9 @@
             font-weight: bold;
             text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
         }
-        .logo .m {
-            color: white;
-        }
-        .logo .b {
-            color: blue;
-        }
-        .logo .l {
-            color: red;
-        }
+        .logo .m { color: white; }
+        .logo .b { color: blue; }
+        .logo .l { color: red; }
         nav {
             display: flex;
             justify-content: center;
@@ -131,6 +125,22 @@
             background-color: #333;
             color: white;
         }
+
+        /* Media queries para ajustar el diseño en pantallas más pequeñas */
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+                width: 90%;
+            }
+            .article-container {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+            .sidebar {
+                flex: none; /* Quitar flex para que la sidebar no ocupe espacio innecesario */
+                margin: 0; /* Quitar margen en la parte inferior */
+            }
+        }
     </style>
 </head>
 <body>
@@ -214,6 +224,7 @@
 
 </body>
 </html>
+
 
 
 
