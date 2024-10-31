@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula tu archivo CSS existente -->
+    <title>Nueva Minería en Catamarca</title>
+    <style>
+        /* Asegúrate de incluir estilos consistentes con tu archivo styles.css */
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background: black; /* Fondo negro para el encabezado */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            background: linear-gradient(90deg, red, blue, white); /* Gradiente de texto */
+            -webkit-background-clip: text; /* Recorta el fondo para que el texto muestre el gradiente */
+            color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+            font-size: 2.5em; /* Tamaño de fuente */
+            margin: 0; /* Elimina margen del h1 */
+        }
+
+        .container {
+            max-width: 800px; /* Ancho máximo para el contenido */
+            margin: 20px auto; /* Centra el contenedor */
+            padding: 20px;
+            background: #fff; /* Fondo blanco para el contenedor */
+            border: 2px solid black; /* Borde negro */
+            border-radius: 8px; /* Esquinas redondeadas */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto elevado */
+            overflow: hidden; /* Evita que el contenido desborde */
+        }
+
+        h2 {
+            background: linear-gradient(90deg, red, blue, white); /* Gradiente de texto */
+            -webkit-background-clip: text; /* Recorta el fondo para que el texto muestre el gradiente */
+            color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+        }
+
+        p {
+            color: #555;
+            margin: 10px 0; /* Espaciado entre párrafos */
+        }
+
+        .nav-links {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center; /* Centra el enlace */
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: black; /* Fondo negro para el pie de página */
+            color: white; /* Color del texto del pie de página */
+            text-align: center;
+            padding: 10px 0;
+            position: relative; /* Cambiado de fixed a relative */
+            bottom: 0;
+        }
+
+        footer p {
+            background: linear-gradient(90deg, red, blue, white); /* Gradiente de texto */
+            -webkit-background-clip: text; /* Recorta el fondo para que el texto muestre el gradiente */
+            color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+            margin: 0; /* Elimina margen del p */
+        }
+
+        /* Estilos de la barra de noticias */
+        #news-slider {
+            display: flex; /* Flex para hacer que las noticias estén en fila */
+            overflow-x: auto; /* Permite el desplazamiento horizontal */
+            scroll-behavior: smooth; /* Animación suave al desplazarse */
+        }
+
+        .news-item {
+            min-width: 300px; /* Ancho mínimo de cada noticia */
+            margin-right: 20px; /* Espacio entre noticias */
+            background: #fff; /* Fondo blanco para las noticias */
+            border: 1px solid #ccc; /* Borde gris */
+            border-radius: 8px; /* Esquinas redondeadas */
+            padding: 10px; /* Espaciado interno */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+        }
+
+        /* Estilos responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px; /* Reduce el padding en dispositivos más pequeños */
+            }
+
+            .container {
+                padding: 10px; /* Reduce el padding dentro del contenedor */
+            }
+
+            h1 {
+                font-size: 1.5em; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+            }
+
+            h2 {
+                font-size: 1.3em; /* Tamaño de fuente más pequeño para subtítulos */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias de Catamarca</h1>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>El Futuro de la Minería en Catamarca: Un Debate Abierto</h2>
+
+            <p><strong><em>Catamarca</em></strong>, un rincón del noroeste argentino, se encuentra en el epicentro de un intenso debate sobre la minería. Con el anuncio de un nuevo proyecto de explotación de litio en la región del salar del Hombre Muerto, la comunidad se enfrenta a un dilema: el desarrollo económico versus la protección del medio ambiente.</p>
+
+            <p>La empresa <strong><em>Lithium Americas</em></strong> ha propuesto un plan que promete traer inversiones significativas y crear miles de puestos de trabajo. Sin embargo, este optimismo se enfrenta a la creciente preocupación de los residentes locales, quienes temen que las actividades mineras puedan comprometer su ya escaso recurso hídrico. "El agua es esencial para nuestra vida diaria. No podemos arriesgarnos a perderla por un proyecto que podría beneficiar a unos pocos", expresa un miembro de la comunidad.</p>
+
+            <p>Activistas han organizado marchas y asambleas, argumentando que la minería puede resultar en una contaminación irreversible del suelo y el agua, afectando tanto a la fauna y flora locales como a las actividades agrícolas que sostienen a muchas familias. "No se trata solo de la minería, sino de la vida que llevamos aquí", enfatiza una agricultora local.</p>
+
+            <p>El Gobierno de Catamarca ha salido en defensa del proyecto, asegurando que se implementarán medidas para mitigar los impactos ambientales. No obstante, la incertidumbre persiste entre los habitantes, quienes anhelan ser escuchados en las decisiones que afectan su hogar.</p>
+
+            <p>En respuesta a la creciente oposición, la empresa ha comenzado a convocar reuniones con la comunidad, buscando aclarar inquietudes y fomentar el diálogo. Sin embargo, muchos residentes afirman que no se sentirán tranquilos hasta que haya garantías reales sobre la protección de su entorno.</p>
+
+            <p>Este episodio en la lucha por la minería en Catamarca pone de relieve la compleja interacción entre el desarrollo económico y la preservación ambiental, un tema que sigue suscitando apasionados debates a nivel nacional.</p>
+        </article>
+
+        <div id="news-slider">
+            <div class="news-item">
+                <h2>Jujuy: El Desafío de la Minería Sostenible</h2>
+                <p>La provincia de Jujuy enfrenta un desafío similar con la explotación de litio, generando tensiones entre desarrollo y medio ambiente.</p>
+                <a href="jujuy.html">Leer más...</a>
+            </div>
+            <div class="news-item">
+                <h2>Famatina: Un Debate por el Agua</h2>
+                <p>En Famatina, la comunidad resiste proyectos mineros que amenazan sus recursos hídricos, planteando preguntas sobre el futuro de su ecosistema.</p>
+                <a href="index.html">Leer más...</a>
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Volver al índice</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Noticias de Catamarca</p>
+    </footer>
+</body>
+</html>
+

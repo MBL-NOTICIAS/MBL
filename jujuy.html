@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Vincula tu archivo CSS existente -->
+    <title>La Revolución Educativa en Jujuy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header {
+            background: black; /* Fondo negro para el encabezado */
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            background: linear-gradient(90deg, red, blue, white); /* Gradiente de texto */
+            -webkit-background-clip: text; /* Recorta el fondo para que el texto muestre el gradiente */
+            color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+            font-size: 2.5em; /* Tamaño de fuente */
+            margin: 0; /* Elimina margen del h1 */
+        }
+
+        .container {
+            max-width: 800px; /* Ancho máximo para el contenido */
+            margin: 20px auto; /* Centra el contenedor */
+            padding: 20px;
+            background: #fff; /* Fondo blanco para el contenedor */
+            border: 2px solid black; /* Borde negro */
+            border-radius: 8px; /* Esquinas redondeadas */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un efecto elevado */
+        }
+
+        h2 {
+            background: linear-gradient(90deg, red, blue, white); /* Gradiente de texto */
+            -webkit-background-clip: text; /* Recorta el fondo para que el texto muestre el gradiente */
+            color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+        }
+
+        blockquote {
+            font-style: italic; /* Cursiva para citas */
+            margin: 20px 0; /* Espaciado alrededor de las citas */
+            padding: 10px; /* Espaciado interno de la cita */
+            border-left: 4px solid #007BFF; /* Borde azul a la izquierda */
+            background: #f0f8ff; /* Fondo azul claro */
+        }
+
+        p {
+            color: #555;
+            margin: 10px 0; /* Espaciado entre párrafos */
+        }
+
+        .date {
+            font-size: 0.9em; /* Tamaño de fuente más pequeño para la fecha */
+            color: #888; /* Color gris para la fecha */
+            margin-bottom: 20px; /* Espaciado debajo de la fecha */
+        }
+
+        .image {
+            max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+            height: auto; /* Mantiene la proporción de la imagen */
+            margin: 20px 0; /* Espaciado vertical alrededor de las imágenes */
+            border: 2px solid black; /* Borde negro alrededor de las imágenes */
+            border-radius: 8px; /* Esquinas redondeadas para las imágenes */
+        }
+
+        .nav-links {
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: black; /* Fondo negro para el pie de página */
+            color: white; /* Color del texto del pie de página */
+            text-align: center;
+            padding: 10px 0;
+            position: relative; /* Cambiado de fixed a relative */
+            bottom: 0;
+        }
+
+        footer p {
+            background: linear-gradient(90deg, red, blue, white); /* Gradiente de texto */
+            -webkit-background-clip: text; /* Recorta el fondo para que el texto muestre el gradiente */
+            color: transparent; /* Hace el texto transparente para mostrar el gradiente */
+            margin: 0; /* Elimina margen del p */
+        }
+
+        /* Estilos responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 10px; /* Reduce el padding en dispositivos más pequeños */
+            }
+
+            .container {
+                padding: 10px; /* Reduce el padding dentro del contenedor */
+            }
+
+            h1 {
+                font-size: 1.5em; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+            }
+
+            h2 {
+                font-size: 1.3em; /* Tamaño de fuente más pequeño para subtítulos */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noticias de Jujuy</h1>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>La Revolución Educativa en Jujuy: Un Cambio de Paradigma</h2>
+            <p class="date">Fecha de publicación: 30 de octubre de 2024</p>
+            <h3>La Provincia Implementa Nuevas Estrategias para Mejorar la Educación</h3>
+
+            <img src="https://i.blogs.es/2e0440/room-education-classroom-children-library-students-1237486-pxhere.com/650_1200.jpg" alt="Estudiantes en aula moderna" class="image"> <!-- Reemplaza con la ruta de tu imagen -->
+            <p>En un esfuerzo por transformar el sistema educativo, <strong><em>Jujuy</em></strong> ha lanzado una serie de reformas innovadoras que buscan adaptarse a las necesidades del siglo XXI. Con la colaboración de expertos y la participación activa de la comunidad, se espera un cambio significativo en el aprendizaje de los estudiantes.</p>
+
+            <blockquote>
+                “Es hora de mirar hacia adelante y preparar a nuestros jóvenes para los desafíos del futuro”, declara la Ministra de Educación de Jujuy.
+            </blockquote>
+
+            <img src="https://www.el1digital.com.ar/wp-content/uploads/2023/06/jujuy-reforma-constitucional-docente.jpg" alt="Reforma educativa en Jujuy" class="image"> <!-- Reemplaza con la ruta de tu imagen -->
+            <p>Las nuevas políticas incluyen la integración de tecnologías digitales en las aulas y la formación continua de docentes. Estas iniciativas son parte de un programa más amplio que busca no solo mejorar la calidad educativa, sino también fomentar la inclusión y la equidad en el acceso a la educación.</p>
+
+            <blockquote>
+                “Queremos que cada niño, sin importar su contexto, tenga la oportunidad de aprender y desarrollarse plenamente”, afirma un docente local.
+            </blockquote>
+
+            <p>A pesar de los desafíos que conllevan estas reformas, la comunidad educativa se muestra optimista. Los padres y estudiantes han expresado su apoyo, reconociendo la importancia de estos cambios en la preparación de los jóvenes para el futuro laboral.</p>
+
+            <p>Con un enfoque en la sostenibilidad y la innovación, Jujuy se posiciona como un referente en la educación del país, y se espera que estos esfuerzos sirvan como modelo para otras provincias.</p>
+        </article>
+
+        <div class="nav-links">
+            <a href="litio.html">Otra noticia 1</a>
+            <a href="catamarca.html">Otra noticia 2</a>
+            <a href="index.html">Volver al índice</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Noticias de Jujuy</p>
+    </footer>
+</body>
+</html>
+
